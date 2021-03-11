@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+a{
+	text-decoration: none;
+	color : inherit;
+}
+
+
+a:hover{
+	text-decoration: underline;
+	color: red;
+}
+
+
+ul{
+    padding-top: 50px;
+    float:right;
+    padding-right: 25px;
+}
+
+
+li{
+	display: inline-block;
+	padding-left: 25px;
+	font-size: 1.5em;
+	color: #227093;
+}
+
+
+.left{
+	float: left;
+}
+
+.redColor{
+	color:red;
+}
+
+
+#wrap{
+	margin:0 auto;
+	text-align: center;
+}
+
+#webTitle{
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding-left: 1.5em;
+}
+
+#nheader{
+	background-color: #006266
+    padding:80px;
+    height: 50px;
+    text-align: left;
+    left: 50px;
+    font-family: calibri;
+    font-size: 1em;
+    color: black;
+ }   
+
+#npara{
+	padding-top: 30px
+	padding-bottom: 30px;
+	background-color: #dfe6e9;
+	height: auto;
+	float: left;
+	border: 3px solid #006266;
+}
+
+.text_para_title{
+	color: #2980b9;
+	font-size: 30px;
+	font-family: calibri;
+}
+
+.text_para{
+	background-color: #dfe6e9;
+	font-size: 22px;
+	font-family: calibri;
+	line-height: 1.5em;
+	padding: 20px;
+}
+
+#footer{
+    padding-top: 550px;
+    margin: 35px ;
+    font-size : 27px;
+    font-family: calibri;
+}
+
+.container{
+	width: 800px;
+	margin: 50px auto 0;
+	display: table;
+	box-sizing: border-box;
+}
+
+.row{
+	margin: 10px 0;
+}
+
+.column{
+	background: #ccc;
+	display:table-cell;
+	padding: 42px;
+	width: 25%;
+	text-align:center;
+	color: #fff;
+	vertical-align: middle;
+	border-left: 10px solid #fff;
+	border-right: 10px solid #fff;
+}
+
+.row:nth-child(1) .column:nth-child(1) {
+	background: #596270;
+}
+
+.row:nth-child(1) .column:nth-child(2) {
+	background: #cf6768;
+}
+
+.row:nth-child(1) .column:nth-child(3) {
+	background: #8accc3;
+}
+.row:nth-child(1) .column:nth-child(4) {
+	background: #218c74;
+}
+
+@media (max-width:900px ){
+	.container{
+		margin: 0;
+		padding: 10px;
+		width: 100%;
+	}
+	.column{
+		width:100%;
+		display:block;
+		margin: 10px 0 ;
+		border: none;
+		box-sizing: border-box;
+	}
+	.row{
+		margin: 0;	}
+}
+
+body{
+	margin : 0;
+	padding:0;
+	font-family: sans-serif;
+	transition: .5s;
+}
+
+#signature{
+	float: right;
+	font-size: 25px;
+}
